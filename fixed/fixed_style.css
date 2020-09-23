@@ -15,3 +15,13 @@ main {
   background-color: #c5e3c6;
 }
 
+img {
+  /* positions the element relative to the viewport */
+  /* removes the element from normal flow */
+  position: fixed;
+
+  /* supports top, left bottom, right and z-index */
+  top: 0;
+  right: 0;
+}
+

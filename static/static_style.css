@@ -14,3 +14,15 @@ main {
   margin: 30px auto;
   background-color: #ffc5c5;
 }
+
+img {
+  /* static is the default position of all elements */
+  position: static;
+  /* none of these work,  with the position of static */
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  z-index: -1;
+
+}

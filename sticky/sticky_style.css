@@ -14,3 +14,15 @@ main {
   margin: 30px auto;
   background-color: #e9e9e9;
 }
+
+img {
+  /* sticks to the first ancestor that has a scroll bar
+  still in normal flow */
+
+  position: sticky;
+
+  /* The top, left, bottom, right properties tell the element WHEN to start
+  sticking, and do not actually move the element around */
+
+  top: 0;
+}

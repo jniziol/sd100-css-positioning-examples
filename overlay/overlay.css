@@ -14,3 +14,12 @@ main {
   margin: 30px auto;
   background-color: #ffc5c5;
 }
+
+.overlay-container {
+  position: relative;
+}
+
+.overlay-container h2 {
+  position: absolute;
+  top: 150px;
+}

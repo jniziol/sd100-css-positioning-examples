@@ -13,4 +13,15 @@ main {
   border: 4px solid purple;
   margin: 30px auto;
   background-color: #e3c5e3;
+
+  /* add position relative, since position absolute moves based on
+  the first NON- static ancestor it can find in the hierarchy */
+  position: relative;
+}
+
+img {
+  /* Position absolutes allows us to move around the image with top, left
+  bottom right, respects z-index and removes the element from normal flow */
+  position: absolute;
+  top: 0;
 }

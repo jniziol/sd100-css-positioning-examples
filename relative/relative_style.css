@@ -14,3 +14,13 @@ main {
   margin: 30px auto;
   background-color: #c5cce3;
 }
+
+img {
+  /* allows us to move the image 'relative' to it's original position */
+  /* also keeps in the image 'normal flow' */
+  position: relative;
+  /* It respects all the following properties, inlcuding left and right */
+  top: 165px;
+  left: 200px;
+  z-index: -1;
+}
